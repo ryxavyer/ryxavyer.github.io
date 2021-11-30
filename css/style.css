@@ -168,6 +168,21 @@ figure figcaption {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.fh5co-contact{
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  padding: 10px 10px;
+  letter-spacing: .1em;
+  font-family: "Roboto", Arial, sans-serif;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
 #fh5co-aside #fh5co-main-menu ul li a:after {
   content: "";
   position: absolute;
@@ -592,6 +607,17 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   background-color: #333333;
 }
 
+.desc-minimized{
+  display: none;
+  height: 40px;
+  background-color: #914864;
+}
+
+.desc-minimized p {
+  color: white;
+  padding-top: 7px;
+}
+
 .github-link .icon{
   font-size: 25px;
   padding-top: 7px;
@@ -802,6 +828,30 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 
+@media only screen and (max-width: 765px) {
+  .show-on-extra-small {
+    visibility: visible !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .exist-on-extra-small {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .hide-on-extra-small {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .white-on-extra-small {
+    color: white !important;
+  }
+}
+
 @media only screen and (min-width: 1201px) {
   .show-on-extra-large {
     visibility: visible !important;
@@ -823,7 +873,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   height: 100px;
   display: table;
   text-align: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -832,7 +882,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-feature .fh5co-icon i {
   display: table-cell;
   vertical-align: middle;
-  color: #ffffff;
+  color: #914864;
   font-size: 40px;
   height: 100px;
 }
@@ -854,7 +904,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-feature .fh5co-text h3 {
   font-weight: 500;
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 14px;
   letter-spacing: .2em;
   text-transform: uppercase;
