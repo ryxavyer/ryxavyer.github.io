@@ -145,6 +145,14 @@
 
 	};
 
+	function HideIntroNameAfterAnimation(){
+		$(".intro-name").on('animationend', SetIntroNameDisplayNone);
+	}
+
+	function SetIntroNameDisplayNone(){
+		$(".intro-name").css("display", "none");
+	};
+
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -152,6 +160,7 @@
 		burgerMenu();
 		mobileMenuOutsideClick();
 		sliderMain();
+		HideIntroNameAfterAnimation();
 	});
 
 
